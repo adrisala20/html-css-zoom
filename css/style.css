@@ -51,8 +51,15 @@ main {
 }
 .user {
     width: calc(100% / 7 - 20px);
+    position: relative;
 }
-
+.badge {
+    color: var(--color-secondary);
+    background-color: var(--color-bg-text-red);
+    padding: 2px;
+    position: absolute;
+    bottom:0
+}
 div.toolbar {
     background-color: var(--color-bg-footer);
     width: 100%;
