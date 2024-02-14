@@ -41,6 +41,9 @@ body {
 .justify-center {
     justify-content: center;
 }
+.s-between {
+    justify-content: space-between;
+}
 /* header */
 header {
     width: 100%;
@@ -86,9 +89,11 @@ main {
 div.toolbar {
     background-color: var(--color-bg-footer);
     width: 100%;
+    height: 70px;
     color: var(--color-secondary);
     padding: 20px;
     margin-bottom: 0;
+    position: relative;
 }
 a {
     color: var(--color-secondary);
@@ -100,3 +105,21 @@ ul li a {
     align-items: center;
     padding: 10px;
 }
+.text-center {
+    text-align: center;
+}
+#center {
+    position: absolute;
+    left: 50%;
+;
+}
+
+#text-red {
+    background-color: #4a4a4a;
+    color: var(--color-text-red);
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+} 
