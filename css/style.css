@@ -1,0 +1,20 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+/* general */
+:root {
+	--color-primary-color: #000000;
+	--color-secondary: #ffffff;
+	--color-icon-green: #4bca01;
+	--color-bg-footer: #222222;
+	--color-text-red: #a72b2a;
+	--color-bg-text-red: #4a4a4a;
+}
+body {
+    font-family: "Roboto", sans-serif
+}
